@@ -1,0 +1,113 @@
+@media (min-width : 576px) {
+
+    .contact-home-werraper {
+        height: 20rem;
+    }
+
+    .contact-home-content {
+        margin-top: 20rem;
+    }
+    .contact-us-information-item {
+        font-size: 1.4rem;
+    }
+    .nav-mobail{
+        width: 40%;
+    }
+}
+
+@media (min-width : 768px) {
+    .Providing-services-werraper {
+        height: 40rem;
+    }
+
+    .contact-home-werraper {
+        height: 40rem;
+    }
+
+    .contact-home-content {
+        margin-top: 5rem;
+    }
+
+    .contact-home-content {
+        flex-basis: 80%;
+    }
+
+    .comment-home-content {
+        display: flex;
+    }
+
+    .contact-us-form__input {
+
+        width: 48%;
+    }
+    .all-sevices-scroller{
+        display: flex;
+    }
+    .single-post-contact-links::after{
+        content: ' ';
+    }
+    
+
+
+}
+
+@media (min-width : 992px) {
+    .toggel-menu {
+        display: none;
+    }
+
+    .header-search {
+        display: flex;
+    }
+
+    .header-contact {
+        display: flex;
+    }
+
+    .header-bottom {
+        display: flex;
+    }
+
+    .Providing-services-werraper {
+        height: 55rem;
+    }
+
+    .Providing-services-content__link {
+        font-size: 1.6rem;
+        padding: 1rem 2rem;
+    }
+
+    .about-home-werraper {
+        flex-direction: row-reverse;
+    }
+
+    .about-home-img img {
+        width: auto;
+    }
+    .contact-us-form {
+        width: 70%;
+    }
+    .contact-us-content-werraper{
+        flex-direction: row;
+        padding: 5rem 7rem 0 7rem;
+    }
+    .contact-us-map{
+        width: 30%;
+    }
+    .applying-sevices-werraper{
+        flex-direction: row-reverse;
+    }
+    .nav-mobail{
+        display: none;
+    }
+}
+
+@media (min-width : 1200px) {
+
+    .Providing-services-werraper {
+        height: 60rem;
+    }
+
+}
+
+@media (min-width : 1400px) {}

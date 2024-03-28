@@ -1,0 +1,38 @@
+
+:root{
+
+    --primery-color:#223A52;
+    --secendey-color:#F9A743;
+    --bg-color:#FBFBFB;
+    --gray-color:#BFBFBF;
+    --black-color:#090E14;
+    --font-regular: "IRANsans";
+    --font-medium: "IRANsans Medium";
+    --font-bold: "IRANsans Bold";
+
+}
+
+.services{
+
+    margin-top: 5rem;
+    position: relative;
+}
+.services::after{
+
+
+    content: ' ';
+    position: absolute;
+    background-image: url('../images/home/repair-tools-svgrepo-com\ \(1\)\ 2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width:20rem;
+    height: 20rem;
+    top: -7rem;
+    right: 0;
+    z-index: -1;
+
+}
+.services-werraper{
+    margin-top: 3rem;
+}

@@ -1,0 +1,54 @@
+
+:root{
+
+    --primery-color:#223A52;
+    --secendey-color:#F9A743;
+    --bg-color:#FBFBFB;
+    --gray-color:#BFBFBF;
+    --black-color:#090E14;
+    --font-regular: "IRANsans";
+    --font-medium: "IRANsans Medium";
+    --font-bold: "IRANsans Bold";
+
+}
+
+
+
+.rescuers-about {
+    margin-top: 5rem;
+}
+.rescuers-about-werrapper {
+    margin-top: 4rem;
+
+}
+.rescuers-about-title {
+    font-family: var(--font-bold);
+    font-size: 2rem;
+    color: var(--black-color);
+
+}
+
+.rescuers-about-box {
+    border-top: 4px solid var(--secendey-color);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.2rem;
+    padding: 2rem 0;
+    box-shadow: 4px 4px 16px 0 #DEDEDE26;
+
+}
+.rescuers-about-box__icon {
+    width: 5rem;
+    height: 5rem;
+}
+.rescuers-about-box__title {
+    margin-top: 4rem;
+    font-family: var(--font-medium);
+    color: var(--primery-color);
+    font-size: 1.8rem;
+}
+
+

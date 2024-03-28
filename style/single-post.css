@@ -1,0 +1,160 @@
+:root {
+
+    --primery-color: #223A52;
+    --secendey-color: #F9A743;
+    --bg-color: #FBFBFB;
+    --gray-color: #BFBFBF;
+    --black-color: #090E14;
+    --font-regular: "IRANsans";
+    --font-medium: "IRANsans Medium";
+    --font-bold: "IRANsans Bold";
+
+}
+
+
+
+
+.articles-search {
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.articles-search svg {}
+
+.articles-search__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: var(--font-regular);
+
+}
+
+.articles-sidbar {
+    margin-top: 3rem;
+    background-color: #fff;
+
+    border-radius: 1rem;
+    box-shadow: 4px 4px 16px 0px #DEDEDE26;
+    padding: 2rem 0;
+
+
+}
+
+.articles-sidbar-title {
+    font-size: 1.8rem;
+    font-family: var(--font-bold);
+    color: var(--black-color);
+    padding: 0 1rem;
+}
+
+.articles-sidbar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.articles-sidbar-list__item {
+    border-bottom: 2px solid #BFBFBF80;
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.articles-sidbar-list__item a {
+    font-size: 1.4rem;
+    font-family: var(--font-medium);
+    color: var(--black-color);
+}
+
+
+/*  */
+
+
+
+.single-post {
+    margin-top: 5rem;
+}
+
+.single-post-werraper {}
+
+.single-post-article {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.single-post-article__img {
+    width: 100%;
+}
+
+.single-post-article__caption {
+    font-size: 1.4rem;
+    color: var(--black-color);
+    margin-top: 3rem;
+}
+
+.single-post-contact {
+    background-color: var(--secendey-color);
+  
+    border-radius: 1rem;
+    padding: 5rem 0;
+    margin-top: 2rem;
+}
+
+.single-post-contact__title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black-color);
+    font-family: var(--font-medium);
+}
+
+.single-post-contact-links {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.single-post-contact-links::after {
+    content: none;
+    position: absolute;
+    top: -50%;
+
+    right: 4rem;
+    background-image: url('../images/home/repair-tools-svgrepo-com\ \(1\)\ 2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 8rem;
+    height: 8rem;
+    z-index: -1;
+
+
+}
+
+.single-post-contact__link1 {
+
+    color: #fff;
+    background-color: var(--primery-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+
+}
+
+.single-post-contact__link2 {
+    color: var(--primery-color);
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primery-color);
+
+}
