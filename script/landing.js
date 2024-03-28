@@ -14,7 +14,7 @@ dropdownmobail.addEventListener('click', function () {
 
     menumobailitem.forEach(function (item) {
 
-        item.classList.toggle('menu-item--active-gdrg')
+        item.classList.toggle('menu-item--active')
 
     })
 
