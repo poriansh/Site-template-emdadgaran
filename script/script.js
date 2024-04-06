@@ -81,7 +81,7 @@ var swiper3 = new Swiper(".Swiper3", {
     navigation: {
         nextEl: ".next3",
         prevEl: ".prev3",
-      },
+    },
       breakpoints: {
         // when window width is >= 320px
 
