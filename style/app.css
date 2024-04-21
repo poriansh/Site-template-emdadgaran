@@ -553,7 +553,6 @@ aside > ul > li > ul > .menu-item-sub--active {
   max-height: 2rem;
   line-height: 2rem;
   transition: all 600ms ease;
-
   border-right: 2px solid var(--secendey-color);
 }
 
