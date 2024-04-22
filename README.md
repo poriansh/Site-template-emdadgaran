@@ -28,5 +28,6 @@ consol.log('poria')
 [source](https://github.com/pouria-neysha/sait-emdadgaran.git)
 
 ## img
-![source](https://github.com/pouria-neysha/sait-emdadgaran.git)
+![download pakage](https://img.shields.io/npm/dw/express)
+![download pakage](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
