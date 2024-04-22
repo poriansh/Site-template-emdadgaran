@@ -196,6 +196,7 @@ let menumobailitem = document.querySelectorAll('.menu-item')
 let dropdownmobail = document.querySelector('.dropdown')
 let menumobailitemsub = document.querySelectorAll('.menu-item__sub')
 let subsub = document.querySelectorAll('.sub-sub')
+let testfecht;
 togelmenu.addEventListener('click', function () {
     
     document.querySelector(".toggel-menu__line").classList.toggle('toggel-menu__line--active')
