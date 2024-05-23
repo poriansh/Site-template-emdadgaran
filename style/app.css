@@ -7,6 +7,7 @@
   --font-regular: "IRANsans";
   --font-medium: "IRANsans Medium";
   --font-bold: "IRANsans Bold";
+
 }
 
 ::-webkit-scrollbar {
@@ -127,6 +128,7 @@ body {
   font-size: 1.6rem;
   background-color: #fbfbfb;
   font-family: var(--font-regular);
+  scroll-snap-type: y mandatory;
 }
 
 .header {
